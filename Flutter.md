@@ -3,7 +3,9 @@
 ###### <center>2019.09.28</center>
 
 # 常用组件
+
 ## Container （容器组件）
+
 |      **属性名**      |      **类型**      |                                         **说明**                                         |
 | :------------------: | :----------------: | :--------------------------------------------------------------------------------------: |
 |         key          |        Key         |                            Container 唯一标识符，用于查找更新                            |
@@ -19,6 +21,7 @@
 |        child         |       Widget       |                                Container 中的内容 Widget                                 |
 
 ## Image （图片组件）
+
 - **Image：从 ImageProvider 获取图像**
 - **Image.asset：加载资源图片**
 - **Image.file：加载本地图片**
@@ -51,7 +54,6 @@
 | BoxFit.scaleDown | 效果与 BoxFit.contain 类似，但不允许显示大小超过原内容大小，只能缩小不能放大 |
 
 ##Text （文本组件）
-
 |     属性名      |     类型      |      默认值       |                                    说明                                    |
 | :-------------: | :-----------: | :---------------: | :------------------------------------------------------------------------: |
 |      data       |    String     |                   |                             数据为要显示的文本                             |
@@ -76,7 +78,7 @@
 |     size      |    double     |       24.0        |                                         图标的大小                                          |
 | textDirection | TextDirection | TextDirection.ltr | Icon 组件里文本内容的显示方向<br>TextDirection.ltr：从左到右<br>TextDirection.rtl：从右到左 |
 
-##IconButton （图标按钮组件）
+## IconButton （图标按钮组件）
 
 |    属性名     |       类型        |         默认值          |               说明               |
 | :-----------: | :---------------: | :---------------------: | :------------------------------: |
@@ -99,7 +101,6 @@
 |    enabled    |     bool     |          true           |          是否为禁用状态          |
 
 ## ListView （列表组件）
-
 |     属性名      |        类型        |    默认值     |                                  说明                                  |
 | :-------------: | :----------------: | :-----------: | :--------------------------------------------------------------------: |
 | scrollDirection |        Axis        | Axis.vertical | 列表的排列方向<br>Axis.vertical：垂直方向<br>Axis.horizontal：水平方向 |
@@ -124,7 +125,9 @@
 |   cacheExtent   |       double       |               |                             缓存区域                             |
 
 ## Form （表单组件）
+
 #### Form 组件
+
 |    属性名    |     类型     |              说明               |
 | :----------: | :----------: | :-----------------------------: |
 |     key      |     Key      |  组件在整个 Widget 树中的key值  |
@@ -133,6 +136,7 @@
 |  onChanged   | VoidCallback | 当 FormFiled 值改变时的回调函数 |
 
 #### TextFromField 组件
+
 |    属性名    |          类型          |                    说明                    |
 | :----------: | :--------------------: | :----------------------------------------: |
 | autovaildate |          bool          |                 自动验证值                 |
@@ -465,12 +469,12 @@
 
 ## Row （水平布局）
 
-| 属性名 |        类型        |        说明        |
-| :----: | :----------------: | :----------------: |
-|        | mainAxisAlignment  | MainAxisAlignment  | 主轴的排列方式                                 |  |
-|        | crossAxisAlignment | CrossAxisAlignment | 次轴的排列方式                                 |  |
-|        |    mainAxisSize    |    MainAxisSize    | 主轴应该占据多少空间<br>max：最大<br>min：最小 |  |
-|        |      children      |   List\<Widget>    | 组件子元素，本质是一个List列表                 |  |
+|       属性名       |        类型        |                      说明                      |
+| :----------------: | :----------------: | :--------------------------------------------: |
+| mainAxisAlignment  | MainAxisAlignment  |                 主轴的排列方式                 |  |
+| crossAxisAlignment | CrossAxisAlignment |                 次轴的排列方式                 |  |
+|    mainAxisSize    |    MainAxisSize    | 主轴应该占据多少空间<br>max：最大<br>min：最小 |  |
+|      children      |   List\<Widget>    |         组件子元素，本质是一个List列表         |  |
 
 ## Column （垂直布局）
 
